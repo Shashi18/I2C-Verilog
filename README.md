@@ -1,7 +1,11 @@
 # I2C-Verilog
 Verilog Code for I2C Protocol
 All codes have been written in Xilinx
+Details can be found at 
+****
+http://www.hellocodings.com/2017/04/i2c-verilog-code.html
 
+****
 An I2C basically consists of a master micro controller and a slave device which responds to the requests of the master. A slave cannot operate on its own. It can't even communicate with other slave without having nay permission from the master.
 You may have come across multi master schematic but it become much more complex to handle such situation because of data leakage and also it requires more than 1 micro controllers. So if you are using an I2C you cannot use any other non-I2C device on the same bus as bothe SDA and SCL lines are in conjunction with the I2C module. If you find this facility somewhere you are being fooled seriously !!!
  I2C works on 2 signals as SCL and SDA
