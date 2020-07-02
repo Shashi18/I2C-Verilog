@@ -3,7 +3,7 @@ Verilog Code for I2C Protocol
 All codes have been written in Xilinx
 Details can be found at 
 ****
-http://www.hellocodings.com/2017/04/i2c-verilog-code.html
+http://www.shashisuman.com/2017/04/i2c-verilog-code.html
 
 ****
 An I2C basically consists of a master micro controller and a slave device which responds to the requests of the master. A slave cannot operate on its own. It can't even communicate with other slave without having nay permission from the master.
