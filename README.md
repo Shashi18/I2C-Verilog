@@ -2,7 +2,7 @@
 Verilog Code for I2C Protocol
 All codes have been written in Xilinx
 Details can be found at 
-****
+*****
 http://www.shashisuman.com/2017/04/i2c-verilog-code.html
 
 ****
