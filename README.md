@@ -25,6 +25,7 @@ address = address of slave
 register = address of register which has to be read
 rw = read or write pin
 
+
 temp = to copy address incoming
 register2 = to copy register value
 scl2x = clock with which sda works to change sda while scl is 0
