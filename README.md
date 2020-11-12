@@ -10,7 +10,7 @@ An I2C basically consists of a master micro controller and a slave device which 
 You may have come across multi master schematic but it become much more complex to handle such situation because of data leakage and also it requires more than 1 micro controllers. So if you are using an I2C you cannot use any other non-I2C device on the same bus as bothe SDA and SCL lines are in conjunction with the I2C module. If you find this facility somewhere you are being fooled seriously !!!
  I2C works on 2 signals as SCL and SDA
                                            SCL - Serial Clock
-                                           SDA- Serial Data
+                                           SDA- Serial Data 
 When SDA is having negedge and SCL is positive level triggered then we have start signal and with every SCL clock a bit is transferred. Combining up to eight bit the slave receives an address. Then come the R/W signal means whether the slave has to read or write from/to address. AT the very moment after R/W bit the last bit known as acknowledgement bit is sent. Then the slave sends bit by bit data and finalizing by the acknowledge bit and the process comes to a STOP.
 
 Do remember that when SDA changes the SCL lines must remain stable hence SDA doesn't change at posedge or nedge of SCL and only on the level of SCL i.e. either 1 or 0.
